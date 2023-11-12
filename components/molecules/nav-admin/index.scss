@@ -1,0 +1,46 @@
+.navbar-brand {
+    width: 80px;
+    height: 60px;
+}
+img {
+    width: 100%;
+}
+.bg-dark {
+    background-color: #0A6EBD !important;
+}
+.form-control {
+    background-color: white;
+}
+
+.icon-primary {
+    color: #D1D3E2;
+    font-size: 24px;
+}
+
+.fs-icon {
+    font-size: 18px;
+}
+
+.account-circle {
+    background-color: #4E73DF;
+    width: 42px;
+    height: 42px;
+}
+
+.border-left-custom {
+    border-left: 1px solid #E3E6F0;
+}
+
+.navbar-toggler {
+    border-color: #E3E6F0;
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+}
+
+@media screen and (max-width: 576px) {
+    .border-left-custom {
+        border-left: 0;
+}
+}

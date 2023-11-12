@@ -1,0 +1,60 @@
+.btn-custom {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.btn-primary-custom {
+    width: 100%;
+    background: rgb(255, 120, 82);
+    background-image: linear-gradient(to top, rgb(255, 120, 82) 0%, rgb(255, 160, 134) 97%);
+    color: #FFF4F1;
+}
+
+.btn-success-custom {
+    width: 100%;
+    background: rgb(142, 198, 55);
+    background-image: linear-gradient(to top, rgb(142, 198, 55) 0%, rgb(182, 220, 121) 97%);
+    color: #FFF4F1;
+}
+
+.btn-custom:hover {
+    opacity: 0.9;
+}
+
+.btn-blue-custom {
+    width: 100%;
+    border-radius: 5px;
+    background: #4E73DF;
+    background-image: linear-gradient(to top, #4E73DF 0%, #4E73DF 97%);
+    color: #FFFFFF;
+}
+
+.btn-danger-custom {
+    width: 100%;
+    border-radius: 5px;
+    background: #E74646;
+    background-image: linear-gradient(to top, #E74646 0%, #E74646 97%);
+    color: #FFFFFF;
+}
+
+.btn-none-custom {
+    width: 100%;
+    border-radius: 5px;
+    background: none;
+    color: #A7B9EF;
+    border: none;
+}
+
+.btn-gray-custom {
+    width: 100%;
+    border-radius: 5px;
+    background: #858796;
+    background-image: linear-gradient(to top, #858796 0%, #858796 97%);
+    color: #FFFFFF;
+}
+
+.btn-gray-custom:active,
+.btn-gray-custom:focus {
+    color: #FFFFFF;
+    border: #858796;
+}

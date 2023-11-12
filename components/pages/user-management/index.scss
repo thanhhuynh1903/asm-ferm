@@ -1,0 +1,20 @@
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: #F8F9FC;
+}
+
+.box-container {
+    width: 96%;
+}
+
+.box-container__content {
+    background-color: #FFFFFF;
+}
+
+.table-container {
+    margin: 20px 0;
+}
+
+.mr-2 {
+    margin-right: 2px;
+}

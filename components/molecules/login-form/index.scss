@@ -1,0 +1,39 @@
+.btn-primary-custom {
+    border-radius: 20px;
+    background: rgb(255, 120, 82);
+    background-image: linear-gradient(to top, rgb(255, 120, 82) 0%, rgb(255, 160, 134) 97%);
+    color: #FFF4F1;
+}
+
+.btn-google {
+    border-radius: 20px;
+    background: #FFA823;
+    background-image: linear-gradient(to top, #FFA823 0%, #FFA823 97%);
+    color: #FFFFFF;
+    border: #FFA823;
+}
+
+.btn-facebook {
+    border-radius: 20px;
+    background: rgb(67, 133, 245);
+    background-image: linear-gradient(to top, rgb(67, 133, 245) 0%, rgb(67, 133, 245) 97%);
+    color: #FFFFFF;
+}
+
+.input-style {
+    border: none;
+    border-radius: 12px;
+}
+
+.btn-primary-custom,
+.btn-facebook,
+.btn-google {
+    opacity: 1;
+}
+
+.btn-primary-custom,
+.btn-facebook,
+.btn-google:hover {
+    opacity: 0.8;
+    color: #FFFFFF !important;
+}
