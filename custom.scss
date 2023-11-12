@@ -1,0 +1,32 @@
+// $red_dark: ;
+@import "~bootstrap/scss/functions"; 
+@import "~bootstrap/scss/variables";
+
+// @import "bootstrap/functions";
+// @import "bootstrap/variables";
+
+// .bg-primary,
+// .btn-primary,
+// .badge-primary,
+// .bg-primary {
+//     background-color: #E74646;
+// }
+$custom-colors: (
+  'third': #FFECE4,
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+$theme-colors: (
+  'danger': #E74646,
+  'primary': #FE663D,
+  'secondary': #FFF8F5,
+  'warning': #FFA823,
+  'info': #31A0FF,
+  'success': #8EC637,
+  'dark': #494A6B,
+);
+
+
+
+
+/* import bootstrap to set changes */
+@import '~bootstrap/scss/bootstrap';
